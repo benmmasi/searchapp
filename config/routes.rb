@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
   root to: 'articles#index'
   resources :articles 
-  get 'search', to: 'search#search'
-    #collection { get :search }
-  end
+  get 'search' do
+    collection { get :search }
 
 
   # The priority is based upon order of creation: first created -> highest priority.

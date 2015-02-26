@@ -7,4 +7,4 @@ end
 
 Article.import
 
-#@articles = Article.search('foobar').records
+@articles = Article.search('foobar').records
