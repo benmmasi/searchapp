@@ -12,6 +12,13 @@ group :development, :test do
   gem 'spring'
 end
 
+group :assets do
+  gem 'therubyracer'
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'uglifier'
+end
+
 group :production do
   gem 'pg' 
   gem 'rails_12factor'
